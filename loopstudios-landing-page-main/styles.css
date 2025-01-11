@@ -8,14 +8,13 @@
 
 body{
     font-family: "Josefin Sans", serif;
+    /* overflow: hidden; */
 }
 
 img{
     display: block;
     width: 100%;
-
 }
-
 
 a{
     color: white;
@@ -46,6 +45,11 @@ header{
 .logo{
     max-height: 40px;
     max-width: 200px;
+}
+
+.no-scroll{
+    overflow: hidden;
+    height: 100%;
 }
 
 .header-menu-list{
@@ -95,6 +99,8 @@ header{
     /* display: none; */
     padding-top: 30px;
     z-index: 9999;
+    /* overflow: hidden; */
+    overflow-y: auto;
 }
 .hidden{
     display: none;
